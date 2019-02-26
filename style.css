@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background: url("../images/concrete_seamless.png");
+    background: url("../Images/design-engineers-thumb.png");
   }
   
   * {
@@ -193,7 +193,7 @@ body {
     width: 100%;
     max-width: 650px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 20px 0 40px;
     background: #fff;
     border: 1px solid #ddd;
   }
@@ -238,3 +238,34 @@ body {
     border: 0 none;
   }
   
+   @media screen and (max-width: 980px) {
+       
+        body {
+            background:pink;
+            }
+
+        .container {
+            padding: 30px;
+        }
+    }   
+
+    @media screen and (max-width: 768px) {
+        
+        body {
+            background: palegreen;
+            }
+
+        .container {
+            padding: 30px;
+        }
+    }
+    @media screen and (max-width: 640px) {
+        
+        body {
+            background:blue;
+            }
+
+        .container {
+            padding: 30px;
+        }
+    }
