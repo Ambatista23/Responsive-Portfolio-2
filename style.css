@@ -241,11 +241,23 @@ body {
    @media screen and (max-width: 980px) {
        
         body {
-            background:pink;
+            background-color: maroon;
             }
 
         .container {
             padding: 30px;
+        }
+
+        #masthead {
+            background-color: gold;
+        }
+
+        #logo {
+            background-color: maroon;
+        }
+
+        .main-section {
+            background-color: gold;
         }
     }   
 
@@ -258,6 +270,18 @@ body {
         .container {
             padding: 30px;
         }
+
+        #masthead {
+            background-color: purple;
+        }
+
+        #logo {
+            background-color:khaki;
+        }
+
+        .main-section {
+            background-color: orchid;
+        }
     }
     @media screen and (max-width: 640px) {
         
@@ -267,5 +291,17 @@ body {
 
         .container {
             padding: 30px;
+        }
+
+        #masthead{
+            background-color: yellow;
+        }
+
+        #logo {
+            background-color:turquoise;
+        }
+
+        .main-section {
+            background-color:darkolivegreen;
         }
     }
